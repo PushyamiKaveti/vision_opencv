@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(cv_bridge)
 
-SET(OpenCV_DIR "~/software/opencv/build")
+#SET(OpenCV_DIR "~/software/opencv/build")
+# set this using the catkin_make -D flag as: -DOpenCV_DIR=~/software/opencv/build
 
 find_package(catkin REQUIRED COMPONENTS rosconsole sensor_msgs)
 
